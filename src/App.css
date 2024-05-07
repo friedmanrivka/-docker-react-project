@@ -1,0 +1,163 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #fdb8d7;
+  min-height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #ffffff;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: #ffacdf;
+}
+
+#a {
+  background-color: #fa7bda;
+  color: #ffffff;
+  width: 1950px;
+}
+
+#b {
+  margin-right: 200px;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5px;
+  border-color: #dddddd;
+  margin-top: 1.5rem;
+  height: 450px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-text {
+  color: #333333;
+  font-size: 15px;
+}
+
+button {
+  background-color: #ffacdf;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  background-color: #fdb8d7;
+}
+#a {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #5a4c46; /* Luxurious background color */
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  z-index: 1000;
+  font-family: Alex Brush;
+}
+
+#a a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+#a a:hover {
+  color: #61dafb;
+}
+
+#b {
+  margin-right: 20px;
+}
+.cart-button {
+  position: fixed;
+  top: 10px; /* Adjust as needed to position above the navigation bar*/
+  right: 10px; 
+  z-index: 1000; /* Higher value to ensure it's above the navigation bar */
+  background-color:unset; /* Return to the previous button color */
+  color: #fff; /* Return to the previous text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 80px;
+  width: 100px;
+  
+}
+.cart-container {
+  margin-top: 20px; /* מרווח מעלה */
+  border: 1px solid #ccc; /* גבול */
+  border-radius: 5px; /* פינות מעוגלות */
+  padding: 20px; /* מרווח פנימי */
+  background-color: #f9f9f9; /* צבע רקע */
+}
+
+.cart-item {
+  display: flex; /* תצוגה במערך עמודות */
+  align-items: center; /* יישור למרכז */
+  margin-bottom: 10px; /* מרווח מתחת */
+}
+
+.cart-item img {
+  width: 100px; /* רוחב תמונה */
+  margin-right: 20px; /* מרווח מימין */
+}
+
+.cart-item button {
+  background-color: #007bff; /* צבע רקע כפתור */
+  color: white; /* צבע טקסט */
+  padding: 5px 10px; /* מרווח פנימי */
+  border: none; /* ללא גבול */
+  border-radius: 5px; /* פינות מעוגלות */
+  cursor: pointer; /* סמל העכבר */
+}
